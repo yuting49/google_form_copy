@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>仿 google 表單</title>
+        <link rel="stylesheet" href="./form.CSS" />
+    </head>
+    
+    <body>
+        <div id="top"></div>
+        <div class="container">
+            <div class="form_wrapper">
+                <div class="intro">
+                    <div>程式導師實驗計畫第三期報名表單</div>
+                    <p>詳情請參考：<a href='https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3',targrt=_blank>https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3</a></p>
+                    <p>記得填完表單之後還要寫信報名才算成功，兩者缺一不可！</p>
+                    <p class="star">*必填</p>
+                </div>
+                <form>
+                    <div class="mustAns question">
+                        <div class="subject">電子郵件地址 <span class="star">*</span></div>
+                        <input class="answer" id="a1" type="email" placeholder="請輸入你的電子郵件">
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div class="mustAns question">
+                        <div class="subject">暱稱 <span class="star">*</span></div>
+                        <div class="note">該怎麼稱呼你</div>
+                        <input class="answer" type="text" placeholder="您的回答">
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div  class="mustAns question">
+                        <div class="subject">報名類型 <span class="star">*</span></div>
+                        <div>
+                            <div>
+                                <input id="basic" class="answer radio" type="radio" name="learn" >
+                            </div>
+                            <div>
+                                <label class="radio_label" for="basic">從零到一基礎班（兩個月後開始收保證金 5000，淘汰不退還，結業後兩個月內找到工作付一個月半薪水，沒工作不用付）</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <input id="pro" class="radio"  type="radio" name="learn" >
+                            </div>
+                            <div>
+                                <label class="radio_label" for="pro">在職工程師加強班（兩個月後開始收保證金 5000，三個月時收學費 35000 元台幣，被淘汰不退還）</label>
+                            </div>
+                        </div>
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div  class="mustAns question">
+                        <div class="subject">現在的職業 <span class="star">*</span></div>
+                        <div class="note">範例：學生、前端工程師、待業中、業務</div>
+                        <input class="answer"  type="text" placeholder="您的回答">
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div  class="mustAns question">
+                        <div class="subject">怎麼知道這個計畫的？ <span class="star">*</span></div>
+                        <input class="answer"  type="text" placeholder="您的回答">
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div  class="mustAns question">
+                        <div class="subject">是否有程式相關背景？ <span class="star">*</span></div>
+                        <div class="note">範例：無、高中時候學過C++、學過一點網頁前端、目前在資策會上課...</div>
+                        <input class="answer"  type="text" placeholder="您的回答">
+                        <div class="remind">這是必填問題</div>
+                    </div>
+                    <div class="question">
+                        <div class="subject">其他</div>
+                        <div class="note">其他任何你想講的</div>
+                        <input class="answer"  type="text" placeholder="您的回答">
+                    </div>
+                </form>
+                <button>提交</button>
+                <div class="warning">請勿利用 Google 表單送出密碼。</div>
+            </div>
+            <footer>
+                <div>Google 並未認可或建立這項內容。 檢舉濫用情形 - 服務條款</div>
+                <div>注意：這不是真的 google 表單</div>
+            </footer>
+        </div>
+    </body>
+    <script type="text/javascript" src="./form.js"></script>
+</html>

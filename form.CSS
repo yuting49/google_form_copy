@@ -1,0 +1,102 @@
+body{
+    background:rgb(237, 237, 207);
+}
+#top{
+    background-image: url(./cover.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 278px;
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    width: 640px;
+}
+.form_wrapper{
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    border-top: 10px solid rgba(243, 118, 56, 0.909);
+    padding: 10px 20px;
+}
+.intro{
+    margin: 22px auto;
+    width: 540px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+.intro div{
+    font-size: 34px;
+}
+.intro p{
+    font-size: 13px
+}
+form{
+    margin: 30px 0;
+}
+.question{
+    margin: 10px 0; 
+    padding: 10px 25px; 
+}
+.subject{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.note{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.remind{
+    padding: 10px 0;
+    color: red;
+    display: none;
+}
+.star{
+    color: red;
+}
+input {
+    border: none;
+    border-bottom: 1px solid ;
+    width: 200px;
+    height: 25px;
+    background: none;
+    line-height: 24px
+}
+.radio{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 10px;
+}
+.radio_label{
+    position: relative;
+    top: -22px;
+    left: 30px;
+}
+button{
+    margin: 15px 0px 0px 20px;
+    font-size: 14px;
+    padding: 7px 30px; 
+    background: rgb(43, 98, 236);
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+button:hover {
+    background: rgb(33, 79, 216)
+}
+.warning{
+    margin: 20px 0px 20px 20px;
+    font-size: 14px;
+    color: #999999
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #3b3a3ac0;
+    margin: 40px ;
+}
+footer div{
+    margin-top:10px
+}
